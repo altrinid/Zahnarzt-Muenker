@@ -4,7 +4,7 @@ Neuentwurf für [zahnarzt-muenzker.at](https://www.zahnarzt-muenzker.at/) (bishe
 
 - `index.html`: Startseite mit Leistungen, Kieferorthopädie, Füllungsvergleich, Ordination (Galerie), Team, Kontakt/Anfahrt
 - `impressum.html`: Impressum und Datenschutz (Entwurf, vor Livegang rechtlich prüfen und Hosting-Anbieter ergänzen)
-- `assets/`: CSS, JS, selbst gehostete Schriften (Fraunces, Plus Jakarta Sans), alle Originalfotos als WebP
+- `assets/`: CSS, JS, selbst gehostete Schrift (Geologica), alle Originalfotos als WebP
 - `vorschau/`: Screenshots Desktop und Handy
 
 Keine Cookies, kein Tracking, keine externen Requests beim Laden; die OpenStreetMap-Karte lädt erst nach Klick.
