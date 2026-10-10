@@ -2,6 +2,7 @@
   "use strict";
 
   var root = document.documentElement;
+  root.classList.remove("no-js");
   var header = document.getElementById("header");
   var callbar = document.getElementById("callbar");
   var hero = document.querySelector(".hero");
