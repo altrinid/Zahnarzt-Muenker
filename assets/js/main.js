@@ -27,7 +27,7 @@
   toggle.addEventListener("click", function () { setMenu(!root.classList.contains("menu-open")); });
   nav.addEventListener("click", function (e) { if (e.target.closest("a")) setMenu(false); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
-  window.addEventListener("resize", function () { if (window.innerWidth > 1080) setMenu(false); });
+  window.addEventListener("resize", function () { if (window.innerWidth > 1100) setMenu(false); });
 
   /* ---------- Reveal on scroll ---------- */
   var reveals = document.querySelectorAll(".reveal");
