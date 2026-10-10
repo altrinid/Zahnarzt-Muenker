@@ -11,6 +11,12 @@ Keine Cookies, kein Tracking, keine externen Requests beim Laden; die OpenStreet
 
 Lokal ansehen: `index.html` im Browser öffnen.
 
-## Entwurf v2 (Vollbild-Layout)
+## Entwürfe v2 und v3
 
-`v2/` enthält einen zweiten Entwurf mit denselben Farben und Inhalten, aber neuer Schrift (Hanken Grotesk) und Vollbild-Layout: Hero über die ganze Bildschirmhöhe, Leistungen als Karten, Leitsatz-Band, randloser KFO-Block, Galerie als horizontales Bildband, Ablauf in vier Schritten, FAQ-Akkordeon. Bilder werden aus `assets/img/` der v1 mitbenutzt. Live-Vorschau nach dem Publizieren: `/v2/`. v1 bleibt im Wurzelverzeichnis.
+- `v2/` – Vollbild-Layout in Hell mit Hanken Grotesk (Hero über die ganze Bildschirmhöhe, Leistungen als Karten, Leitsatz-Band, randloser KFO-Block, Galerie als Bildband, Ablauf in vier Schritten, FAQ-Akkordeon).
+- `v3.1/` – dasselbe Layout in Tiefblau, Schrift Archivo (Headlines Archivo Black) – Platzhalter für Monstra Basic
+- `v3.2/` – Tiefgrün mit Creme, Schrift Barlow Condensed – Platzhalter für Earlgos Condensed
+- `v3.3/` – heller Zahnschmelz-Ton mit Zahnmodell-Foto und Zahn-Muster, Schrift Jost – Platzhalter für Franie
+- `v3/` – Übersichtsseite der drei v3-Varianten; `v3/assets/` ist die gemeinsame Basis (`base.css` + je eine `theme-*.css`, Schriften, Script). Die gekauften Fonts werden über die `@font-face`-Blöcke und die Variablen `--display`, `--cond`, `--text` eingetauscht.
+
+Alle Entwürfe nutzen die Bilder aus `assets/img/`. v1 bleibt im Wurzelverzeichnis.
