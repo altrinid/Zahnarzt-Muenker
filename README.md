@@ -11,12 +11,12 @@ Keine Cookies, kein Tracking, keine externen Requests beim Laden; die OpenStreet
 
 Lokal ansehen: `index.html` im Browser öffnen.
 
-## Entwurf v2 (Vollbild-Layout, drei Varianten)
+## Entwürfe v2 und v3
 
-`v2/` enthält einen zweiten Entwurf mit denselben Inhalten, aber Vollbild-Layout (Hero über die ganze Bildschirmhöhe, Leistungen als Karten, Leitsatz-Band, randloser KFO-Block, Galerie als Bildband, Ablauf in vier Schritten, FAQ-Akkordeon) – in drei Varianten mit je einer Schrift und einem Hintergrund:
+- `v2/` – Vollbild-Layout in Hell mit Hanken Grotesk (Hero über die ganze Bildschirmhöhe, Leistungen als Karten, Leitsatz-Band, randloser KFO-Block, Galerie als Bildband, Ablauf in vier Schritten, FAQ-Akkordeon).
+- `v3.1/` – dasselbe Layout in Tiefblau, Schrift Archivo (Headlines Archivo Black) – Platzhalter für Monstra Basic
+- `v3.2/` – Tiefgrün mit Creme, Schrift Barlow Condensed – Platzhalter für Earlgos Condensed
+- `v3.3/` – heller Zahnschmelz-Ton mit Zahnmodell-Foto und Zahn-Muster, Schrift Jost – Platzhalter für Franie
+- `v3/` – Übersichtsseite der drei v3-Varianten; `v3/assets/` ist die gemeinsame Basis (`base.css` + je eine `theme-*.css`, Schriften, Script). Die gekauften Fonts werden über die `@font-face`-Blöcke und die Variablen `--display`, `--cond`, `--text` eingetauscht.
 
-- `v2/blau/` – Tiefblau, Schrift Archivo (Headlines Archivo Black) – Platzhalter für Monstra Basic
-- `v2/gruen/` – Tiefgrün mit Creme, Schrift Barlow Condensed – Platzhalter für Earlgos Condensed
-- `v2/zaehne/` – heller Zahnschmelz-Ton mit Zahnmodell-Foto und Zahn-Muster, Schrift Jost – Platzhalter für Franie
-
-`v2/index.html` ist die Übersichtsseite. Gemeinsame Basis: `v2/assets/css/base.css`; je Variante eine kleine Theme-Datei (`theme-*.css`), die Farben und Schriftrollen setzt. Die gekauften Fonts werden über die `@font-face`-Blöcke und die drei Variablen `--display`, `--cond`, `--text` eingetauscht. Bilder kommen aus `assets/img/` der v1. v1 bleibt im Wurzelverzeichnis.
+Alle Entwürfe nutzen die Bilder aus `assets/img/`. v1 bleibt im Wurzelverzeichnis.
