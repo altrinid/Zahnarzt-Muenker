@@ -1,0 +1,74 @@
+/* Variante Blau · Schrift: Archivo (Headlines Archivo Black) – Platzhalter für Monstra Basic */
+:root {
+  --display: "Archivo Black", Impact, "Arial Black", sans-serif;
+  --cond: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --text: "Archivo", "Helvetica Neue", Arial, sans-serif;
+
+  --green: #1d5fa6;
+  --green-dark: #0e3c6e;
+  --mint: #86c5ff;
+  --bone: #edf2f7;
+  --bone-2: #c9d4e0;
+  --bg: #0b1a2b;
+  --bg-2: #10304f;
+  --bg-3: #071320;
+  --paper: #e8eef6;
+
+  --fg: var(--bone);
+  --fg-2: var(--bone-2);
+  --fg-muted: #8da0b5;
+  --rule: rgba(237, 242, 247, .16);
+  --rule-strong: rgba(237, 242, 247, .4);
+  --accent: var(--mint);
+  --surface: rgba(237, 242, 247, .06);
+  --chip-bg: var(--bone);
+  --chip-fg: #0b1a2b;
+  --btn-bg: var(--bone);
+  --btn-fg: #0b1a2b;
+  --btn-hover-bg: var(--mint);
+  --btn-hover-fg: #0b1a2b;
+  --header-bg: rgba(11, 26, 43, .9);
+  --header-bg-solid: rgba(11, 26, 43, .96);
+  --chip-dark-bg: rgba(11, 26, 43, .86);
+  --chip-dark-fg: var(--bone-2);
+  --statement-fg: #0e3c6e;
+  --statement-fg-2: #1d5fa6;
+  --footer-bg: #071320;
+  --footer-fg: var(--bone);
+  --footer-fg-2: var(--bone-2);
+  --footer-accent: var(--mint);
+  --footer-rule: rgba(237, 242, 247, .16);
+  --callbar-bg: var(--bone);
+  --callbar-fg: #0b1a2b;
+  --callbar-rule: rgba(11, 26, 43, .18);
+}
+.section--paper, .statement {
+  --fg: #0f1a26;
+  --fg-2: #34455a;
+  --fg-muted: #6b7a8c;
+  --rule: #cfd8e3;
+  --rule-strong: #a9b7c7;
+  --accent: #1d5fa6;
+  --surface: rgba(15, 26, 38, .05);
+  --chip-bg: #0f1a26;
+  --chip-fg: #edf2f7;
+  --btn-bg: #0f1a26;
+  --btn-fg: #edf2f7;
+  --btn-hover-bg: #1d5fa6;
+  --btn-hover-fg: #edf2f7;
+}
+
+/* Archivo ist nicht kondensiert: Labels etwas kleiner, Zahlen in Archivo Black */
+h3 { font-weight: 700; letter-spacing: .04em; font-size: clamp(1.05rem, 1.25vw, 1.3rem); }
+.kicker, .nav a, .btn, .menu-toggle, .facts small, .contact__label, .contact__h, .table thead th, .g .cap, .deflist dt, .extras b, .card__num, .hero__photo figcaption, .split__photo figcaption, .lightbox__bar, .lb-btn, .brand__sub, .callbar a { font-weight: 600; letter-spacing: .12em; }
+.btn { font-size: .92rem; }
+.nav a { font-size: .9rem; letter-spacing: .1em; }
+.textlink { font-weight: 600; font-size: 1rem; letter-spacing: .06em; }
+.facts b { font-family: var(--display); font-weight: 400; font-size: clamp(1.25rem, 1.8vw, 1.8rem); letter-spacing: 0; }
+.phone { font-family: var(--display); font-weight: 400; font-size: clamp(2.6rem, 5.4vw, 5.4rem); letter-spacing: -.01em; }
+.step__num { font-family: var(--display); font-weight: 400; font-size: clamp(2.4rem, 3.6vw, 4rem); letter-spacing: 0; }
+.cv__table th, .transit th { font-weight: 600; font-size: .98rem; letter-spacing: .04em; }
+.table tbody th { font-size: 1.1rem; letter-spacing: .04em; }
+.portrait figcaption b { font-size: 1.02rem; letter-spacing: .04em; }
+.menu-open .nav a { font-weight: 700; font-size: 1.5rem; letter-spacing: .04em; }
+.faq summary::after { font-weight: 400; }
