@@ -10,3 +10,7 @@ Neuentwurf für [zahnarzt-muenzker.at](https://www.zahnarzt-muenzker.at/) (bishe
 Keine Cookies, kein Tracking, keine externen Requests beim Laden; die OpenStreetMap-Karte lädt erst nach Klick.
 
 Lokal ansehen: `index.html` im Browser öffnen.
+
+## Entwurf v2 (Vollbild-Layout)
+
+`v2/` enthält einen zweiten Entwurf mit denselben Farben und Inhalten, aber neuer Schrift (Hanken Grotesk) und Vollbild-Layout: Hero über die ganze Bildschirmhöhe, Leistungen als Karten, Leitsatz-Band, randloser KFO-Block, Galerie als horizontales Bildband, Ablauf in vier Schritten, FAQ-Akkordeon. Bilder werden aus `assets/img/` der v1 mitbenutzt. Live-Vorschau nach dem Publizieren: `/v2/`. v1 bleibt im Wurzelverzeichnis.
